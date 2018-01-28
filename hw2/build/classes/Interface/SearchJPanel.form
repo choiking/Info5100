@@ -63,7 +63,7 @@
                   </Group>
                   <Component id="uberCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="421" max="32767" attributes="0"/>
+              <EmptySpace pref="422" max="32767" attributes="0"/>
           </Group>
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
@@ -109,11 +109,10 @@
                                           <Component id="currAvailNumTextField" min="-2" pref="82" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
-                                  <Group type="102" alignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
                                       <Component id="allComBtn" min="-2" pref="134" max="-2" attributes="0"/>
                                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Component id="companyLabel" min="-2" pref="462" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="companyLabel" min="-2" pref="529" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -129,7 +128,7 @@
                               </Group>
                           </Group>
                       </Group>
-                      <EmptySpace min="0" pref="191" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="145" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -196,10 +195,10 @@
                           <Component id="manuYearCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="manuYearComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="37" pref="83" max="32767" attributes="0"/>
+                      <EmptySpace min="37" pref="103" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace min="0" pref="37" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="57" max="32767" attributes="0"/>
                       <Component id="searchBtn" min="-2" pref="55" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -354,6 +353,9 @@
           </StringArray>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="manuYearComboBoxActionPerformed"/>
+      </Events>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
       </AuxValues>

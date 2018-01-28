@@ -236,6 +236,11 @@ public class SearchJPanel extends javax.swing.JPanel {
         });
 
         manuYearComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2000" }));
+        manuYearComboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                manuYearComboBoxActionPerformed(evt);
+            }
+        });
 
         serialNumBtn.setText("Search by Serial Num");
         serialNumBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -316,7 +321,7 @@ public class SearchJPanel extends javax.swing.JPanel {
                                     .addComponent(cityComboBox, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 188, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(modelNumTextField, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                     .addComponent(uberCheckBox, javax.swing.GroupLayout.Alignment.LEADING))
-                .addContainerGap(421, Short.MAX_VALUE))
+                .addContainerGap(422, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
@@ -352,11 +357,10 @@ public class SearchJPanel extends javax.swing.JPanel {
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(currNotAvailNumTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(currAvailNumTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                    .addGroup(layout.createSequentialGroup()
                                         .addComponent(allComBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(companyLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 462, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(20, 20, 20))))
+                                        .addComponent(companyLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 529, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(213, 213, 213)
                                 .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 223, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -365,7 +369,7 @@ public class SearchJPanel extends javax.swing.JPanel {
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(searchBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(refreshBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                        .addGap(0, 191, Short.MAX_VALUE)))
+                        .addGap(0, 145, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -417,9 +421,9 @@ public class SearchJPanel extends javax.swing.JPanel {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(manuYearCheckBox)
                             .addComponent(manuYearComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(37, 83, Short.MAX_VALUE))
+                        .addGap(37, 103, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 37, Short.MAX_VALUE)
+                        .addGap(0, 57, Short.MAX_VALUE)
                         .addComponent(searchBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -656,6 +660,10 @@ public class SearchJPanel extends javax.swing.JPanel {
             }
         }
     }//GEN-LAST:event_serialNumBtnActionPerformed
+
+    private void manuYearComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_manuYearComboBoxActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_manuYearComboBoxActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
